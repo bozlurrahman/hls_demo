@@ -1,7 +1,12 @@
 var http = require('http');
 var fs = require('fs');
 
-const port = 8000
+const port = 8500
+// https://medium.com/sharma02gaurav/adaptive-bitrate-streaming-hls-vod-service-in-nodejs-8df0d91d2eb4
+// https://www.unified-streaming.com/solutions/audio-streaming
+// https://hlsjs.video-dev.org/demo/
+// https://ffmpeg.org/ffmpeg.html
+
 
 http.createServer(function (request, response) {
     console.log('request starting...');
